@@ -1,0 +1,1 @@
+INSERT INTO product.cart (product_id, cust_id) select product_id, cust_id from product.cart where 7 not in product_id and 6 not in cust_id;
